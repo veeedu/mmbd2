@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Mahamantra</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #501358c9;
+            color: #23062b;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #630f9b;
+            color: #011516;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 40px;
+            margin: 20px;
+        }
+        .contact {
+            background-color: #c94fda;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #7b0f8a;
+            color: #593a5e;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .hidden {
+            display: none;
+        }
+        .image-container {
+            margin-top: 20px;
+        }
+        .image-container img {
+            margin: 10px;
+            width: 200px;
+            height: auto;
+        }
+    </style>
+    <script>
+        function showImages() {
+            var images = document.getElementsByClassName('hidden');
+            for (var i = 0; i < images.length; i++) {
+                images[i].style.display = 'block';
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Happy Birthday</h1>
+    </header>
+    <section>
+        <h2>Happy Birthday Mahamantra</h2>
+        <p>Happy birthday to you</p>
+        <p>You were born in the zoo</p>
+        <p>You look like a monkey</p>
+        <p>And you smell like poopoo</p>
+    </section>
+    <section>
+        <h2>See some photos</h2>
+        <button type="button" onclick="showImages()">Show Images</button>
+        <div class="image-container">
+            <img src="https://raw.githubusercontent.com/veeedu/mmbd/main/mm1.jpg" alt="Andaman Islands" class="hidden">
+            <img src="https://raw.githubusercontent.com/veeedu/mmbd/main/mm2.jpg" alt="Andaman Islands 2" class="hidden">
+            <img src="https://raw.githubusercontent.com/veeedu/mmbd/main/mm3.jpg" alt="Weird Face" class="hidden">
+            <img src="https://raw.githubusercontent.com/veeedu/mmbd/main/mm4.jpg" alt="A Normal Photo" class="hidden">
+        </div>
+    </section>
+    <section>
+        <h2>Contact Information</h2>
+        <div class="contact">
+            <p>Email: <a href="mailto:mahamantra41@gmail.com">mahamantra41@gmail.com</a></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Mahamantra</p>
+    </footer>
+</body>
+</html>
